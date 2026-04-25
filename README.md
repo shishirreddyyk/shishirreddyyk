@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Sai Shishir Koppula
+#                      👋 Hi, I'm Sai Shishir Koppula
 
 **Full Stack Software Engineer** · MS Computer Science @ UNT (May 2026)
 
@@ -77,4 +77,4 @@
 
 ---
 
-*Graduating May 2026 · Based in Denton, TX · Open to full-time SWE, Full Stack, Backend & Data roles*
+*Based in Texas · Open to full-time SWE, Full Stack, Backend & Data roles*
