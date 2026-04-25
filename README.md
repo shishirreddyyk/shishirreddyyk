@@ -58,15 +58,7 @@
 |---|---|---|
 | 🛒 **Thrift Store E-Commerce Platform** | Full-stack e-commerce app with auth, cart, order processing & REST APIs | React.js, Node.js, SQL |
 | 🗞️ **Fake News Detection** | NLP-based text classifier using TF-IDF, Word2Vec & ensemble ML models | Python, Scikit-learn |
-| 🎙️ **Hoda – Voice Accessibility Extension** | Voice-driven browser extension with command history, shortcuts & sidebar | JavaScript, Web APIs |
-
----
-
-## 📈 GitHub Stats
-
-![Shishir's GitHub stats](https://github-readme-stats.vercel.app/api?username=shishirreddyyk&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shishirreddyyk&layout=compact&theme=tokyonight&hide_border=true)
-
+| 🎙️ **Hoda – Voice Accessibility Extension** | Voice-driven browser extension with command history, shortcuts & sidebar | JavaScript, Web APIs 
 ---
 
 ## 🏅 Certifications
