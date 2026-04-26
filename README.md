@@ -2,6 +2,8 @@
 
 **Full Stack Software Engineer** · MS Computer Science @ UNT (May 2026)
 
+🌐 Portfolio: https://shishirkoppula.vercel.app
+
 ---
 
 ## 🧑‍💻 About Me
