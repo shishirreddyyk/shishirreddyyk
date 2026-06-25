@@ -70,9 +70,10 @@ I work with LLM APIs, RAG, and agentic workflows because that's where the hard p
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Most Used Languages
 
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shishirreddyyk&layout=compact&hide_border=true&hide=html,css&theme=tokyonight" alt="top langs">
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shishirreddyyk&layout=compact&hide_border=true&hide=html,css&theme=tokyonight&card_width=400" alt="top langs">
 </p>
 
 ---
@@ -83,8 +84,4 @@ I work with LLM APIs, RAG, and agentic workflows because that's where the hard p
 
 ---
 
-<p align="center"><i>Based in Texas · Open to relocation, anywhere.
-
-Looking for Software Engineer, AI / ML Engineer, Backend & related roles.
-
-If you're building something hard and need someone who actually ships — let's talk. — let's talk.</i></p>
+<p align="center"><i>Based in Texas · Open to relocation, anywhere.<br>Looking for Software Engineer, AI / ML Engineer, Backend & related roles.<br>If you're building something hard and need someone who actually ships — let's talk.</i></p>
