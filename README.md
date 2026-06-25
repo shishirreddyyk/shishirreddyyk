@@ -1,82 +1,52 @@
-#                      👋 Hi, I'm Sai Shishir Koppula
+# 👋 Hi, I'm Sai Shishir Koppula
 
-**Full Stack Software Engineer** · MS Computer Science @ UNT (May 2026)
-
-🌐 Portfolio: https://shishirkoppula.vercel.app
-
----
-
-## 🧑‍💻 About Me
-
-- 🎓 **MS in Computer Science** — University of North Texas, Denton, TX *(Aug 2024 – May 2026)*
-- 💼 Full Stack Engineer with experience building **scalable APIs**, **responsive UIs**, and **automated backend workflows**
-- 🧪 Hands-on with **data processing & ML** — NLP pipelines, feature engineering, model evaluation
-- ♿ Built a **voice-driven accessibility extension** (Hoda) for improved web accessibility
-- 🌐 Interned at **TeckTown LLC** — delivered production-ready full-stack features end-to-end
-- 🔍 Seeking **Software Engineer / Full Stack / Backend / Data-focused** roles
+**Software Engineer & AI Engineer · Python · LLMs · React · TypeScript · Node.js · MS Computer Science @ UNT**
+🌐 https://shishirkoppula.vercel.app
 
 ---
 
-## 🛠️ Tech Stack
+Most new grads talk about building things. I ship them, then keep them running.
 
-### 💻 Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-1D4ED8?style=for-the-badge&logo=mysql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+I build ML and backend systems in Python — RAG, NLP, and the APIs that serve them. My favorite kind of work is the unglamorous part: the bug you only catch because you were actually measuring.
 
-### 🧩 Frontend
-![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+**Case in point — DocPilot:** I built an eval harness to score answer quality against a curated Q/A set. That harness is how I caught a silent embedding-model deprecation from a stack trace, swapped the config, and re-indexed the whole corpus to bring retrieval back. Most people never find that bug because they never built the thing that surfaces it.
 
-### 🛠️ Backend & APIs
-![Node.js](https://img.shields.io/badge/Node.js-0F172A?style=for-the-badge&logo=node.js&logoColor=83CD29)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-111827?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-082F49?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### 🤖 ML / Data
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP%20%2F%20TF--IDF-6B7280?style=for-the-badge&logo=openai&logoColor=white)
-
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)
-
-### 🧪 Testing
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=mocha&logoColor=white)
+I work with LLM APIs, RAG, and agentic workflows because that's where the hard problems are right now — not because it's trendy.
 
 ---
 
-## 🚀 Projects
+## 🛠️ Stack I ship with
 
-| Project | Description | Tech Stack |
-|---|---|---|
-| 🛒 **Thrift Store E-Commerce Platform** | Full-stack e-commerce app with auth, cart, order processing & REST APIs | React.js, Node.js, SQL |
-| 🗞️ **Fake News Detection** | NLP-based text classifier using TF-IDF, Word2Vec & ensemble ML models | Python, Scikit-learn |
-| 🎙️ **Hoda – Voice Accessibility Extension** | Voice-driven browser extension with command history, shortcuts & sidebar | JavaScript, Web APIs 
+**ML / Data** · Python · scikit-learn · NLP (TF-IDF, Word2Vec, GloVe) · RAG · LangChain · ChromaDB · embeddings · pandas
+**Backend & APIs** · FastAPI · Node.js · Express.js · REST APIs · Celery · Redis
+**Databases** · PostgreSQL · MySQL · MongoDB
+**Cloud & DevOps** · AWS (S3, Lambda, SQS, DynamoDB, EKS) · Docker · CI/CD · Git
+**Testing** · pytest · JUnit · Jest
+
+---
+
+## 🚀 What I've built
+
+| Project | What it does | Stack |
+|---------|--------------|-------|
+| 🤖 **[DocPilot](https://github.com/shishirreddyyk/docpilot)** | RAG document assistant with semantic search + a Q/A API. Eval harness caught a silent embedding-model deprecation and I fixed retrieval end to end. | Python, LangChain, ChromaDB, FastAPI |
+| 🔌 **[MCP DocPilot Server](https://github.com/shishirreddyyk/mcp-docpilot-server)** | MCP server exposing DocPilot retrieval over stdio + streamable-HTTP, swappable embedding backend. | FastMCP, ChromaDB, Python |
+| 🩺 **[clinical-genai-service](https://github.com/shishirreddyyk/clinical-genai-service)** | GenAI service over the Anthropic API, backed by a JUnit test suite. | Java 17, Spring Boot, Anthropic API |
+| ☁️ **[CloudStream](https://github.com/shishirreddyyk/cloudstream)** | Event-driven serverless pipeline fanning records through AWS. | S3, Lambda, SQS, DynamoDB |
+| 👁️ **[YOLO Detect API](https://github.com/shishirreddyyk/yolo-detect-api)** | Object-detection inference behind a FastAPI endpoint. | FastAPI, YOLOv8, Python |
+
+Also: as a full-stack intern at TeckTown I cut redundant API calls ~40% with request batching and caching, brought down PostgreSQL query latency with index tuning, and shipped a React/TypeScript component library the team reused across features.
+
 ---
 
 ## 🏅 Certifications
 
-- 📊 Data Science with Python – Bootcamp
-- ☁️ Salesforce Developer Training
-- 📚 E-Business – NPTEL
+Anthropic Academy — AI Fluency: Framework & Foundations · Anthropic Academy — Claude 101 · Salesforce Certified Platform Developer · Data Science with Python (Bootcamp)
 
 ---
 
-## 💬 Let's Connect
+## 💬 Let's connect
 
-[![LinkedIn](https://img.icons8.com/color/48/linkedin.png)](https://www.linkedin.com/in/shishirreddyy/)
-&nbsp;&nbsp;
-[![Gmail](https://img.icons8.com/color/48/gmail-new.png)](mailto:saishishir23@gmail.com)
+[LinkedIn](https://linkedin.com/in/shishirreddyy) · SaiShishirKoppula@my.unt.edu
 
----
-
-*Based in Texas · Open to full-time SWE, Full Stack, Backend & Data roles*
+*Based in Texas · Open to ML Engineer, Backend & ML-adjacent SWE roles. If you're building something hard and need someone who actually ships, let's talk.*
